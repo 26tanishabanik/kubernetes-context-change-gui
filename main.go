@@ -20,7 +20,7 @@ func main() {
 func onReady() {
 	
 	var selected *systray.MenuItem
-	icon, err := getIcon("kubernetes-icon.png")
+	icon, err := getIcon("assets/kubernetes-icon.png")
 	if err != nil {
 		fmt.Println("error in getting icon: ", err)
 		return
